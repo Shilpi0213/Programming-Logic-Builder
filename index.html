@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Logic Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>💻 Programming Logic Builder</h1>
+    <p>Learn Logic • Practice C & C++ • Improve Skills</p>
+</header>
+
+<main>
+
+    <section class="intro">
+        <h2>Welcome!</h2>
+        <p>
+            Select a problem and understand its programming logic
+            with C and C++ examples.
+        </p>
+    </section>
+
+    <section class="problems">
+        <h2>Choose a Problem</h2>
+
+        <button onclick="showProblem('even')">Even / Odd</button>
+        <button onclick="showProblem('positive')">Positive / Negative</button>
+        <button onclick="showProblem('largest')">Largest of Two</button>
+        <button onclick="showProblem('prime')">Prime Number</button>
+        <button onclick="showProblem('factorial')">Factorial</button>
+    </section>
+
+    <section class="solution">
+
+        <h2 id="problemTitle">Select a problem</h2>
+
+        <p id="logic">
+            Your problem logic will appear here.
+        </p>
+
+        <div class="example">
+            <h3>📝 Example</h3>
+            <p><b>Input:</b> <span id="input">---</span></p>
+            <p><b>Output:</b> <span id="output">---</span></p>
+        </div>
+
+        <div class="code-box">
+
+            <div>
+                <h3>🟦 C Code</h3>
+                <pre id="cCode">Select a problem first.</pre>
+            </div>
+
+            <div>
+                <h3>🟨 C++ Code</h3>
+                <pre id="cppCode">Select a problem first.</pre>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Programming Logic Builder</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
